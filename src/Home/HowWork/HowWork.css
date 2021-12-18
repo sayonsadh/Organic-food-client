@@ -1,0 +1,32 @@
+.collect-step img{ 
+    width: 180px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.collect-step{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin: 30px;
+    margin-top: 50px;
+}
+.working-container{
+    background-image: linear-gradient(rgba(255, 254, 254, 0.932),
+    rgba(255, 254, 254, 0.932)) , url("https://thumbs.dreamstime.com/b/vegetables-fruits-hand-drawn-contour-fruit-vegetable-icons-vegan-lifestyle-healthy-organic-food-doodle-vector-seamless-pattern-196223181.jpg");
+    padding: 20px;
+}
+
+@media only screen and (max-width:688px) {
+    .collect-step{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .collect-step{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}

@@ -1,0 +1,24 @@
+.booking-product{
+  display: flex;
+  
+
+}
+
+@media only screen and (max-width:688px) {
+    .booking-product{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* justify-content: center; */
+        margin-left: 140px;
+    }
+    .booking-product input{
+        margin-left: 120px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .booking-product{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}

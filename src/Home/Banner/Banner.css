@@ -1,0 +1,63 @@
+.banner-bg{
+    background-image: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+    /* width: 1800px; */
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.details{
+    display: flex;
+    justify-content: end;
+    text-align: start;
+}
+.details h1{
+    /* display: flex; */
+    /* justify-content: end; */
+    text-align: start;
+    margin-top: 125px;
+    margin-bottom: 25px;
+}
+.about {
+    width: 700px;
+    line-height: 35px;
+}
+.banner-button{
+    background-color: rgb(146, 231, 17);
+    border: 1px solid  rgb(143, 221, 26);
+    border-radius: 4px;
+    color:rgb(255, 255, 255);
+    width: 130px;
+    box-shadow: none;
+    margin-top: 8px;
+}
+.banner-button:hover{
+    background-color: rgb(75, 72, 72);
+    border: 1px solid  rgb(3, 3, 3);
+}
+.company-name{
+    color: rgb(125, 206, 3);
+}
+
+@media only screen and (max-width:688px) {
+    .details{
+        width: auto;
+        margin-left: 200px;
+    }
+    .details h1 {
+        margin-top: 40px;
+    }
+    .banner-bg{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .details{
+        width: auto;
+        margin-left: 350px;
+    }
+    .details h1 {
+        margin-top: 80px;
+    }
+}

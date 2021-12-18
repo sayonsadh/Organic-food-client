@@ -1,0 +1,53 @@
+.nameField{
+    width: 200px;
+}
+.emailField{
+    width: 200px;
+}
+.subjectField{
+    width: 470px;
+    margin-right: 10px;
+}
+.messageField{
+    /* width: 470px; */
+    /* margin-left: 0px; */
+    /* position: fixed; */
+}
+.messageField textarea{
+    width: 470px;
+    /* margin-right: 200px; */
+}
+.message{
+    margin-top: 17px;
+    margin-left: 399px;
+    margin-right: 7px;
+}
+.msg{
+    display: flex;
+}
+.button{
+    width: 100px;
+}
+.msg label{
+   
+}
+
+@media only screen and (max-width:688px) {
+    .msg{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .message{
+        margin-left: 80px;
+    }
+    .messageField{
+        margin-left: 60px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .msg{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}

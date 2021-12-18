@@ -1,0 +1,51 @@
+.why-chose{
+    /* text-align: start; */
+    width: 400px; 
+    height: 400px;
+    /* background-color: rgb(75, 247, 75); */
+    background-image: linear-gradient(rgba(135, 156, 135, 0.822),
+    rgba(55, 143, 36, 0.795)) , url("https://ih1.redbubble.net/image.2594425584.4349/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg");
+    background-position: center;
+    margin-top: 60px;
+    margin-left: -70px;
+    color: white;
+}
+.why-chose-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.why-chose-us img{
+    height: 400px;
+    width: 450px;
+}
+.why-chose h6{
+    text-align: start;
+    margin-left: 100px;
+    margin-top: 35px;
+    line-height: 5px;
+}
+.why-chose h2{
+    margin-top: 70px;
+    margin-left: -40px;
+}
+
+@media only screen and (max-width:688px) {
+    .why-chose-us{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10px;
+    }
+    .why-chose{
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .why-chose-us{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
